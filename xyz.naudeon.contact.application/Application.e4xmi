@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_h5k2oMFtEeah84zP8691BA" elementId="xyz.naudeon.contact.application.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_lw5GcMFtEeah84zP8691BA" elementId="xyz.naudeon.contact.application.trimmedwindow.contacts" label="Contacts" x="0" y="0" width="800" height="1024">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_8IomsMF8Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.partsashcontainer.principale">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_2nFXwMF-Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.partsashcontainer.0" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_9Cc4sMF-Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.partstack.liste">
+          <children xsi:type="basic:Part" xmi:id="_Ls_agMF_Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.part.liste" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.parts.ContactListPart" label="Liste">
+            <toolbar xmi:id="_Nr6lUMF_Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbar.0"/>
+          </children>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="__UcJcMF-Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.partstack.details">
+          <children xsi:type="basic:Part" xmi:id="_P-8X4MF_Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.part.details" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.parts.ContactDetailsPart" label="D&#xe9;tails"/>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_EiW_0MF_Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.partstack.localisation">
+        <children xsi:type="basic:Part" xmi:id="_UZ3EAMF_Eeah84zP8691BA" elementId="xyz.naudeon.contact.application.part.localisation" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.parts.ContactLocalisationPart" label="Localisation">
+          <toolbar xmi:id="_we8p8MGAEeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbar.1"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_irzfoMF_Eeah84zP8691BA" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_DT9ugMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menu.fichier" label="&amp;Fichier">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Jmn_YMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.nouveau" label="&amp;Nouveau" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/add.png" mnemonics="" command="_8VYdsMGGEeah84zP8691BA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_weSzkMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xUrB8MGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.importer" label="Importer" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/arrow_right.png" command="__LMfIMGEEeah84zP8691BA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_2l-jgMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.exporter" label="Exporter" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/arrow_left.png" command="_NXaGMMGFEeah84zP8691BA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_7cdxUMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menuseparator.2"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9IIB4MGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.preferences" label="Pr&#xe9;f&#xe9;rences" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/building_edit.png" command="_dpcU0MGGEeah84zP8691BA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_D3IQgMGKEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menuseparator.3"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_EkiJEMGKEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.quitter" label="Quitter" command="_ydUeUMGEEeah84zP8691BA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_XJsi0MGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menu.aide" label="&amp;Aide">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_abaLMMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.bienvenue" label="Bienvenue" command="_E1vxsMGGEeah84zP8691BA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_gwF1UMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.contenu" label="Contenu" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/help.png" command="_OaFOsMGGEeah84zP8691BA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_pNLWYMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_qM2DoMGJEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledmenuitem.apropos" label="A propos" command="_YF07QMGGEeah84zP8691BA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_zF6xkMGTEeah84zP8691BA" elementId="xyz.naudeon.contact.application.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_Jr5f8MGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbar.2">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XpnYAMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledtoolitem.nouveau" label="Nouveau" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/add.png" command="_8VYdsMGGEeah84zP8691BA"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_jvm5cMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kxLEIMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledtoolitem.importer" label="Importer" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/arrow_right.png" command="__LMfIMGEEeah84zP8691BA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qtZK8MGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledtoolitem.exporter" label="Exporter" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/arrow_left.png" command="_NXaGMMGFEeah84zP8691BA"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_wYyngMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbarseparator.1"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_xJS3YMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledtoolitem.preferences" label="Pr&#xe9;f&#xe9;rences" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/building_edit.png" command="_dpcU0MGGEeah84zP8691BA"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_9rlTQMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.toolbarseparator.2"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__CZVMMGUEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handledtoolitem.aide" label="?" iconURI="platform:/plugin/xyz.naudeon.contact.application/icones/help.png" command="_OaFOsMGGEeah84zP8691BA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_LomToMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.quitter" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.QuitterHandler" command="_ydUeUMGEEeah84zP8691BA"/>
+  <handlers xmi:id="_QKiNwMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.importer" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.ImporterHandler" command="__LMfIMGEEeah84zP8691BA"/>
+  <handlers xmi:id="_UwPNkMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.exporter" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.ExporterHandler" command="_NXaGMMGFEeah84zP8691BA"/>
+  <handlers xmi:id="_Yrce4MGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.bienvenu" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.BienvenueHandler" command="_E1vxsMGGEeah84zP8691BA"/>
+  <handlers xmi:id="_eqGOoMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.contenu" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.ContenuHandler" command="_OaFOsMGGEeah84zP8691BA"/>
+  <handlers xmi:id="_jQ5aoMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.apropos" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.AProposHandler" command="_YF07QMGGEeah84zP8691BA"/>
+  <handlers xmi:id="_o2gYQMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.preferences" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.PreferencesHandler" command="_dpcU0MGGEeah84zP8691BA"/>
+  <handlers xmi:id="_sh7hIMGIEeah84zP8691BA" elementId="xyz.naudeon.contact.application.handler.nouveau" contributionURI="bundleclass://xyz.naudeon.contact.application/xyz.naudeon.contact.application.ui.handlers.NouveauHandler" command="_8VYdsMGGEeah84zP8691BA"/>
+  <bindingTables xmi:id="_3ifkMMGLEeah84zP8691BA" elementId="xyz.naudeon.contact.application.bindingtable.app" bindingContext="_-917cMGLEeah84zP8691BA">
+    <bindings xmi:id="_R8q88MGMEeah84zP8691BA" elementId="xyz.naudeon.contact.application.keybinding.nouveau" keySequence="M3+M2+N" command="_8VYdsMGGEeah84zP8691BA"/>
+    <bindings xmi:id="_vUSIcMGSEeah84zP8691BA" elementId="xyz.naudeon.contact.application.keybinding.0" keySequence="M3+X" command="_ydUeUMGEEeah84zP8691BA"/>
+    <bindings xmi:id="_mczU8MGTEeah84zP8691BA" elementId="xyz.naudeon.contact.application.keybinding.1" keySequence="F1" command="_OaFOsMGGEeah84zP8691BA"/>
+  </bindingTables>
+  <rootContext xmi:id="_-917cMGLEeah84zP8691BA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="Fen&#xea;tres et dialogues"/>
+  <commands xmi:id="_ydUeUMGEEeah84zP8691BA" elementId="org.eclipse.ui.file.exit" commandName="Quitter" description="Quitte l'application."/>
+  <commands xmi:id="__LMfIMGEEeah84zP8691BA" elementId="org.eclipse.ui.file.import" commandName="Importer" description="Importe des contacts."/>
+  <commands xmi:id="_NXaGMMGFEeah84zP8691BA" elementId="org.eclipse.ui.file.export" commandName="Exporter" description="Exporte des contacts"/>
+  <commands xmi:id="_E1vxsMGGEeah84zP8691BA" elementId="org.eclipse.ui.help.quickStartAction" commandName="Bienvenue" description="Page d'introduction de l'application."/>
+  <commands xmi:id="_OaFOsMGGEeah84zP8691BA" elementId="org.eclipse.ui.help.helpContents" commandName="Contenu" description="Affiche l'aide en ligne."/>
+  <commands xmi:id="_YF07QMGGEeah84zP8691BA" elementId="org.eclipse.ui.help.aboutAction" commandName="A propos" description="A propos de l'application."/>
+  <commands xmi:id="_dpcU0MGGEeah84zP8691BA" elementId="org.eclipse.ui.window.preferences" commandName="Pr&#xe9;f&#xe9;rences" description="Gestion des pr&#xe9;f&#xe9;rences de l'application."/>
+  <commands xmi:id="_8VYdsMGGEeah84zP8691BA" elementId="org.eclipse.ui.newWizard" commandName="Nouveau" description="Cr&#xe9;&#xe9; un nouvel &#xe9;l&#xe9;ment."/>
+  <addons xmi:id="_h5k2ocFtEeah84zP8691BA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_h5k2osFtEeah84zP8691BA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_h5k2o8FtEeah84zP8691BA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_h5k2pMFtEeah84zP8691BA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_h5k2pcFtEeah84zP8691BA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_h5k2psFtEeah84zP8691BA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_h5k2p8FtEeah84zP8691BA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
